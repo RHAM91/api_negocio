@@ -14,11 +14,11 @@ echo ''
 echo '[+] COMPILANDO....'
 echo ''
 
-NODE_ENV=development npm run build
+NODE_ENV=production npm run build
 
 echo ''
 echo '[+] REINICIANDO SERVICIO...'
 echo ''
 
-pm2 restart 1
+pm2 restart 2
 pm2 logs
